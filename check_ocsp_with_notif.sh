@@ -17,7 +17,7 @@ cert="/home/namauser/AS11111.pem"
 # Telegram Bot API configuration
 TELEGRAM_BOT_TOKEN="" #Ganti dengan Bot token anda
 TELEGRAM_CHAT_ID="" # Ganti dengan CHAT ID anda
-THREAD_ID="3962"  # Ganti dengan Thread ID anda
+THREAD_ID=""  # Ganti dengan Thread ID anda
 
 # Command OCSP
 openssl ocsp -issuer $root -cert $cert -CAfile $chain -nonce -text -url https://ocsp.privyca.id >/dev/null 2>&1
